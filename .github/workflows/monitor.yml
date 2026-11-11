@@ -1,0 +1,53 @@
+name: Quick Tickets monitor
+
+# Runs on GitHub servers (outside Russia) - api.telegram.org is reachable
+# from there, so no proxy is needed. Your PC can be turned off.
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'   # every 1 minutes (UTC; Orel = UTC+3)
+  workflow_dispatch:          # adds a manual "Run workflow" button
+    inputs:
+      test_notification:
+        description: 'Send test Telegram message instead of a regular check'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write             # needed to commit state.json back
+
+jobs:
+  check:
+    runs-on: ubuntu-latest    # windows-latest works too, but costs 2x minutes
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run monitor
+        env:
+          QT_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          QT_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        shell: pwsh
+        run: |
+          if ('${{ inputs.test_notification }}' -eq 'true') {
+            pwsh -NoProfile -ExecutionPolicy Bypass -File monitor.ps1 -TestNotification
+          }
+          else {
+            pwsh -NoProfile -ExecutionPolicy Bypass -File monitor.ps1 -Once
+          }
+
+      - name: Commit updated state
+        if: inputs.test_notification != true
+        shell: pwsh
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json config.json
+          git diff --cached --quiet
+          if ($LASTEXITCODE -ne 0) {
+            git commit -m "chore: update ticket state"
+            git push
+          }
+          else {
+            Write-Host 'No state changes.'
+          }
