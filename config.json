@@ -1,0 +1,20 @@
+{
+  "bot_token": "9203015800:AAH7o6I7pEUiayWDrkM1jFVxxaLxJLE7dmc",
+  "chat_id": "497263958",
+  "interval_minutes": 1,
+  "notify_sold_out": true,
+  "notify_first_run": false,
+  "proxy_url": "",
+  "events": [
+    "https://quicktickets.ru/orel-teatr-turgeneva/e128",
+    "https://quicktickets.ru/orel-teatr-turgeneva/e141",
+    "https://quicktickets.ru/orel-teatr-svobodnoe-prostranstvo/e387",
+    "https://quicktickets.ru/orel-teatr-kukol/e140",
+    "https://quicktickets.ru/orel-teatr-russkij-stil-bahtina/e67"
+  ],
+  "templates": {
+    "available": "🎉 Появились билеты!\n\n🎭 {event}\n📅 {session}\n\n👉 Купить: {link}",
+    "new_session": "🆕 Новый сеанс в продаже!\n\n🎭 {event}\n📅 {session}\n\n👉 Купить: {link}",
+    "sold_out": "😕 Мест больше нет\n\n🎭 {event}\n📅 {session}"
+  }
+}
