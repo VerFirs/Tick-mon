@@ -1,20 +1,19 @@
 {
-  "https://quicktickets.ru/orel-teatr-kukol/e140": {
-    "title": "Купить билеты на «Серебряное копытце» — Орловский театр кукол, Орёл",
+  "https://quicktickets.ru/orel-teatr-turgeneva/e141": {
     "sessions": {
-      "/orel-teatr-kukol/s1402": {
-        "sold": true,
-        "label": "26 декабря (сб) 10:00"
-      },
-      "/orel-teatr-kukol/s1405": {
+      "/orel-teatr-turgeneva/s1492": {
         "sold": false,
-        "label": "27 декабря (вс) 10:00"
+        "label": "12 декабря (сб) 18:00"
+      },
+      "/orel-teatr-turgeneva/s1471": {
+        "sold": true,
+        "label": "28 ноября (сб) 18:00"
       }
     },
-    "checked": "2026-11-14T05:18:12"
+    "checked": "2026-11-14T06:09:22",
+    "title": "Купить билеты на «МАСТЕР И МАРГАРИТА» — Орловский государственный академический театр им. И. С. Тургенева, Орёл"
   },
   "https://quicktickets.ru/orel-teatr-svobodnoe-prostranstvo/e387": {
-    "title": "Купить билеты на «Тартюф» — Орловский государственный театр «Свободное пространство», Орёл",
     "sessions": {
       "/orel-teatr-svobodnoe-prostranstvo/s3262": {
         "sold": false,
@@ -33,48 +32,49 @@
         "label": "19 ноября (чт) 19:00"
       }
     },
-    "checked": "2026-11-14T05:18:11"
+    "checked": "2026-11-14T06:09:23",
+    "title": "Купить билеты на «Тартюф» — Орловский государственный театр «Свободное пространство», Орёл"
+  },
+  "https://quicktickets.ru/orel-teatr-kukol/e140": {
+    "sessions": {
+      "/orel-teatr-kukol/s1402": {
+        "sold": true,
+        "label": "26 декабря (сб) 10:00"
+      },
+      "/orel-teatr-kukol/s1405": {
+        "sold": false,
+        "label": "27 декабря (вс) 10:00"
+      }
+    },
+    "checked": "2026-11-14T06:09:24",
+    "title": "Купить билеты на «Серебряное копытце» — Орловский театр кукол, Орёл"
   },
   "https://quicktickets.ru/orel-teatr-russkij-stil-bahtina/e67": {
-    "title": "Купить билеты на Спектакль \"...Забыть Герострата!\" — Орловский драматический театр «Русский стиль» им. М. М. Бахтина, Орёл",
     "sessions": {
       "/orel-teatr-russkij-stil-bahtina/s1620": {
         "sold": true,
         "label": "14 ноября (сб) 18:00"
       }
     },
-    "checked": "2026-11-14T05:18:14"
+    "checked": "2026-11-14T06:09:24",
+    "title": "Купить билеты на Спектакль \"...Забыть Герострата!\" — Орловский драматический театр «Русский стиль» им. М. М. Бахтина, Орёл"
   },
   "https://quicktickets.ru/orel-teatr-turgeneva/e128": {
-    "title": "Купить билеты на «ВЕДЬМА» — Орловский государственный академический театр им. И. С. Тургенева, Орёл",
     "sessions": {
-      "/orel-teatr-turgeneva/s1484": {
+      "/orel-teatr-turgeneva/s1483": {
         "sold": false,
-        "label": "02 декабря (ср) 19:00"
+        "label": "01 декабря (вт) 19:00"
       },
       "/orel-teatr-turgeneva/s1451": {
         "sold": true,
         "label": "17 ноября (вт) 19:00"
       },
-      "/orel-teatr-turgeneva/s1483": {
+      "/orel-teatr-turgeneva/s1484": {
         "sold": false,
-        "label": "01 декабря (вт) 19:00"
+        "label": "02 декабря (ср) 19:00"
       }
     },
-    "checked": "2026-11-14T05:18:08"
-  },
-  "https://quicktickets.ru/orel-teatr-turgeneva/e141": {
-    "title": "Купить билеты на «МАСТЕР И МАРГАРИТА» — Орловский государственный академический театр им. И. С. Тургенева, Орёл",
-    "sessions": {
-      "/orel-teatr-turgeneva/s1471": {
-        "sold": true,
-        "label": "28 ноября (сб) 18:00"
-      },
-      "/orel-teatr-turgeneva/s1492": {
-        "sold": false,
-        "label": "12 декабря (сб) 18:00"
-      }
-    },
-    "checked": "2026-11-14T05:18:10"
+    "checked": "2026-11-14T06:09:21",
+    "title": "Купить билеты на «ВЕДЬМА» — Орловский государственный академический театр им. И. С. Тургенева, Орёл"
   }
 }
