@@ -1,5 +1,6 @@
 {
   "https://quicktickets.ru/orel-teatr-turgeneva/e141": {
+    "checked": "2026-11-22T07:53:07",
     "title": "Купить билеты на «МАСТЕР И МАРГАРИТА» — Орловский государственный академический театр им. И. С. Тургенева, Орёл",
     "sessions": {
       "/orel-teatr-turgeneva/s1471": {
@@ -10,29 +11,29 @@
         "sold": false,
         "label": "12 декабря (сб) 18:00"
       }
-    },
-    "checked": "2026-11-22T06:36:02"
+    }
   },
   "https://quicktickets.ru/orel-teatr-russkij-stil-bahtina/e67": {
+    "checked": "2026-11-22T07:53:10",
     "title": "Спектакль \"...Забыть Герострата!\" — Орловский драматический театр «Русский стиль» им. М. М. Бахтина",
-    "sessions": {},
-    "checked": "2026-11-22T06:36:05"
+    "sessions": {}
   },
-  "https://quicktickets.ru/orel-teatr-svobodnoe-prostranstvo/e387": {
-    "title": "Купить билеты на «Тартюф» — Орловский государственный театр «Свободное пространство», Орёл",
+  "https://quicktickets.ru/orel-teatr-kukol/e140": {
+    "checked": "2026-11-22T07:53:09",
+    "title": "Купить билеты на «Серебряное копытце» — Орловский театр кукол, Орёл",
     "sessions": {
-      "/orel-teatr-svobodnoe-prostranstvo/s3262": {
+      "/orel-teatr-kukol/s1402": {
         "sold": true,
-        "label": "01 декабря (вт) 19:00"
+        "label": "26 декабря (сб) 10:00"
       },
-      "/orel-teatr-svobodnoe-prostranstvo/s3263": {
+      "/orel-teatr-kukol/s1405": {
         "sold": false,
-        "label": "02 декабря (ср) 19:00"
+        "label": "27 декабря (вс) 10:00"
       }
-    },
-    "checked": "2026-11-22T06:36:03"
+    }
   },
   "https://quicktickets.ru/orel-teatr-turgeneva/e128": {
+    "checked": "2026-11-22T07:53:06",
     "title": "Купить билеты на «ВЕДЬМА» — Орловский государственный академический театр им. И. С. Тургенева, Орёл",
     "sessions": {
       "/orel-teatr-turgeneva/s1484": {
@@ -43,21 +44,20 @@
         "sold": true,
         "label": "01 декабря (вт) 19:00"
       }
-    },
-    "checked": "2026-11-22T06:36:01"
+    }
   },
-  "https://quicktickets.ru/orel-teatr-kukol/e140": {
-    "title": "Купить билеты на «Серебряное копытце» — Орловский театр кукол, Орёл",
+  "https://quicktickets.ru/orel-teatr-svobodnoe-prostranstvo/e387": {
+    "checked": "2026-11-22T07:53:08",
+    "title": "Купить билеты на «Тартюф» — Орловский государственный театр «Свободное пространство», Орёл",
     "sessions": {
-      "/orel-teatr-kukol/s1405": {
-        "sold": false,
-        "label": "27 декабря (вс) 10:00"
-      },
-      "/orel-teatr-kukol/s1402": {
+      "/orel-teatr-svobodnoe-prostranstvo/s3262": {
         "sold": true,
-        "label": "26 декабря (сб) 10:00"
+        "label": "01 декабря (вт) 19:00"
+      },
+      "/orel-teatr-svobodnoe-prostranstvo/s3263": {
+        "sold": false,
+        "label": "02 декабря (ср) 19:00"
       }
-    },
-    "checked": "2026-11-22T06:36:04"
+    }
   }
 }
